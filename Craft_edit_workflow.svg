@@ -70,8 +70,9 @@
   <text x="430" y="210" text-anchor="middle" class="boxTitle">Craft editor</text>
   <text x="430" y="228" text-anchor="middle" class="boxText">Avid Media</text>
   <text x="430" y="243" text-anchor="middle" class="boxText">Composer</text>
-  <text x="430" y="258" text-anchor="middle" class="boxText">Adobe Premiere</text>
-  <text x="430" y="273" text-anchor="middle" class="boxText">Finishing</text>
+  <text x="430" y="258" text-anchor="middle" class="boxText">Davinci Resolve</text>
+  <text x="430" y="273" text-anchor="middle" class="boxText">Adobe Premiere</text>
+  <text x="430" y="288" text-anchor="middle" class="boxText">Finishing</text>
 
   <!-- Step 4 -->
   <rect class="stepBox boxYellow" x="520" y="190" width="140" height="110" rx="8" ry="8"/>
