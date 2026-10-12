@@ -112,7 +112,7 @@
   <text x="270" y="375" text-anchor="middle" class="boxTitle">Mimir</text>
   <text x="270" y="393" text-anchor="middle" class="boxText">PAM/MAM</text>
   <text x="270" y="408" text-anchor="middle" class="boxText">Søgning</text>
-  <text x="270" y="423" text-anchor="middle" class="boxText">Story-link</text>
+  <text x="270" y="423" text-anchor="middle" class="boxText">Story</text>
   <text x="270" y="438" text-anchor="middle" class="boxText">API</text>
 
   <!-- Step 3 -->
