@@ -1,0 +1,196 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Craft editor workflow</title>
+  <desc id="desc">Craft editor platform scenarios with different software stacks</desc>
+
+  <defs>
+    <style>
+      .bg { fill: #f8fafc; }
+      .title { font: 700 32px 'Segoe UI', Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 500 13px 'Segoe UI', Arial, sans-serif; fill: #64748b; }
+      .stepHeaderBox { fill: #1e293b; stroke: none; }
+      .stepHeaderText { font: 600 14px 'Segoe UI', Arial, sans-serif; fill: #ffffff; }
+      .stepBox { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; }
+      .boxTitle { font: 600 13px 'Segoe UI', Arial, sans-serif; fill: #0f172a; }
+      .boxText { font: 400 11px 'Segoe UI', Arial, sans-serif; fill: #475569; }
+      .arrow { stroke: #64748b; stroke-width: 2; fill: none; marker-end: url(#arrowHead); }
+      .scenarioLabel { font: 600 14px 'Segoe UI', Arial, sans-serif; fill: #0f172a; }
+      .boxBlue { fill: #dbeafe; stroke: #7dd3fc; stroke-width: 1.5; }
+      .boxGreen { fill: #dcfce7; stroke: #86efac; stroke-width: 1.5; }
+      .boxYellow { fill: #fef08a; stroke: #facc15; stroke-width: 1.5; }
+    </style>
+
+    <marker id="arrowHead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#64748b" />
+    </marker>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="800" class="bg"/>
+
+  <!-- Title -->
+  <text x="600" y="45" text-anchor="middle" class="title">Craft editor</text>
+  <text x="600" y="65" text-anchor="middle" class="subtitle">workflow fra ingest til Craft-finishing, check-in, QC og publishing</text>
+
+  <!-- Step Headers -->
+  <rect class="stepHeaderBox" x="40" y="85" width="140" height="40" rx="6" ry="6"/>
+  <text x="110" y="112" text-anchor="middle" class="stepHeaderText">1. Ingest</text>
+
+  <rect class="stepHeaderBox" x="200" y="85" width="140" height="40" rx="6" ry="6"/>
+  <text x="270" y="112" text-anchor="middle" class="stepHeaderText">2. Media-workflow</text>
+
+  <rect class="stepHeaderBox" x="360" y="85" width="140" height="40" rx="6" ry="6"/>
+  <text x="430" y="112" text-anchor="middle" class="stepHeaderText">3. Craft editor</text>
+
+  <rect class="stepHeaderBox" x="520" y="85" width="140" height="40" rx="6" ry="6"/>
+  <text x="590" y="112" text-anchor="middle" class="stepHeaderText">4. Render, QC</text>
+
+  <rect class="stepHeaderBox" x="680" y="85" width="140" height="40" rx="6" ry="6"/>
+  <text x="750" y="112" text-anchor="middle" class="stepHeaderText">5. Levering</text>
+
+  <!-- ===== SCENARIO 1: Avid + DaVinci + Premiere ===== -->
+  <text x="50" y="175" class="scenarioLabel">1. Avid + DaVinci + Premiere</text>
+
+  <!-- Step 1 -->
+  <rect class="stepBox boxBlue" x="40" y="190" width="140" height="110" rx="8" ry="8"/>
+  <text x="110" y="210" text-anchor="middle" class="boxTitle">Live, kamera</text>
+  <text x="110" y="228" text-anchor="middle" class="boxText">MediaCentral</text>
+  <text x="110" y="243" text-anchor="middle" class="boxText">Ingest</text>
+  <text x="110" y="258" text-anchor="middle" class="boxText">Asset-ID, story</text>
+  <text x="110" y="273" text-anchor="middle" class="boxText">High-bitrate</text>
+
+  <!-- Step 2 -->
+  <rect class="stepBox boxBlue" x="200" y="190" width="140" height="110" rx="8" ry="8"/>
+  <text x="270" y="210" text-anchor="middle" class="boxTitle">Avid Media</text>
+  <text x="270" y="228" text-anchor="middle" class="boxText">PAM/MAM</text>
+  <text x="270" y="243" text-anchor="middle" class="boxText">Workflow</text>
+  <text x="270" y="258" text-anchor="middle" class="boxText">Signing</text>
+  <text x="270" y="273" text-anchor="middle" class="boxText">Metadata</text>
+
+  <!-- Step 3 -->
+  <rect class="stepBox boxGreen" x="360" y="190" width="140" height="110" rx="8" ry="8"/>
+  <text x="430" y="210" text-anchor="middle" class="boxTitle">Craft editor</text>
+  <text x="430" y="228" text-anchor="middle" class="boxText">Avid Media</text>
+  <text x="430" y="243" text-anchor="middle" class="boxText">Composer</text>
+  <text x="430" y="258" text-anchor="middle" class="boxText">Adobe Premiere</text>
+  <text x="430" y="273" text-anchor="middle" class="boxText">Finishing</text>
+
+  <!-- Step 4 -->
+  <rect class="stepBox boxYellow" x="520" y="190" width="140" height="110" rx="8" ry="8"/>
+  <text x="590" y="210" text-anchor="middle" class="boxTitle">Render</text>
+  <text x="590" y="228" text-anchor="middle" class="boxText">Master +</text>
+  <text x="590" y="243" text-anchor="middle" class="boxText">project</text>
+  <text x="590" y="258" text-anchor="middle" class="boxText">Metadata</text>
+  <text x="590" y="273" text-anchor="middle" class="boxText">QC-bitrate</text>
+
+  <!-- Step 5 -->
+  <rect class="stepBox" x="680" y="190" width="140" height="110" rx="8" ry="8"/>
+  <text x="750" y="210" text-anchor="middle" class="boxTitle">Output</text>
+  <text x="750" y="228" text-anchor="middle" class="boxText">Payout /</text>
+  <text x="750" y="243" text-anchor="middle" class="boxText">FastServe</text>
+  <text x="750" y="258" text-anchor="middle" class="boxText">Play, CMS</text>
+  <text x="750" y="273" text-anchor="middle" class="boxText">Arkiv</text>
+
+  <!-- Arrows Scenario 1 -->
+  <path class="arrow" d="M180 245 L200 245"/>
+  <path class="arrow" d="M340 245 L360 245"/>
+  <path class="arrow" d="M500 245 L520 245"/>
+  <path class="arrow" d="M660 245 L680 245"/>
+
+  <!-- ===== SCENARIO 2: Mimir + DaVinci + Premiere ===== -->
+  <text x="50" y="340" class="scenarioLabel">2. Mimir + DaVinci + Premiere</text>
+
+  <!-- Step 1 -->
+  <rect class="stepBox boxBlue" x="40" y="355" width="140" height="110" rx="8" ry="8"/>
+  <text x="110" y="375" text-anchor="middle" class="boxTitle">Live, kamera</text>
+  <text x="110" y="393" text-anchor="middle" class="boxText">Mimir ingest</text>
+  <text x="110" y="408" text-anchor="middle" class="boxText">Asset-ID</text>
+  <text x="110" y="423" text-anchor="middle" class="boxText">Story</text>
+  <text x="110" y="438" text-anchor="middle" class="boxText">High-bitrate</text>
+
+  <!-- Step 2 -->
+  <rect class="stepBox boxBlue" x="200" y="355" width="140" height="110" rx="8" ry="8"/>
+  <text x="270" y="375" text-anchor="middle" class="boxTitle">Mimir</text>
+  <text x="270" y="393" text-anchor="middle" class="boxText">MAM/DAM</text>
+  <text x="270" y="408" text-anchor="middle" class="boxText">Søgning</text>
+  <text x="270" y="423" text-anchor="middle" class="boxText">Story-link</text>
+  <text x="270" y="438" text-anchor="middle" class="boxText">API</text>
+
+  <!-- Step 3 -->
+  <rect class="stepBox boxGreen" x="360" y="355" width="140" height="110" rx="8" ry="8"/>
+  <text x="430" y="375" text-anchor="middle" class="boxTitle">Craft editor</text>
+  <text x="430" y="393" text-anchor="middle" class="boxText">Media</text>
+  <text x="430" y="408" text-anchor="middle" class="boxText">Composer</text>
+  <text x="430" y="423" text-anchor="middle" class="boxText">Premiere Pro</text>
+  <text x="430" y="438" text-anchor="middle" class="boxText">Finishing</text>
+
+  <!-- Step 4 -->
+  <rect class="stepBox boxYellow" x="520" y="355" width="140" height="110" rx="8" ry="8"/>
+  <text x="590" y="375" text-anchor="middle" class="boxTitle">Render</text>
+  <text x="590" y="393" text-anchor="middle" class="boxText">Mimir workflow</text>
+  <text x="590" y="408" text-anchor="middle" class="boxText">Placeholder</text>
+  <text x="590" y="423" text-anchor="middle" class="boxText">master/projekt</text>
+  <text x="590" y="438" text-anchor="middle" class="boxText">QC-billede</text>
+
+  <!-- Step 5 -->
+  <rect class="stepBox" x="680" y="355" width="140" height="110" rx="8" ry="8"/>
+  <text x="750" y="375" text-anchor="middle" class="boxTitle">Output</text>
+  <text x="750" y="393" text-anchor="middle" class="boxText">Payout /</text>
+  <text x="750" y="408" text-anchor="middle" class="boxText">FastServe</text>
+  <text x="750" y="423" text-anchor="middle" class="boxText">Play, CMS</text>
+  <text x="750" y="438" text-anchor="middle" class="boxText">Arkiv</text>
+
+  <!-- Arrows Scenario 2 -->
+  <path class="arrow" d="M180 410 L200 410"/>
+  <path class="arrow" d="M340 410 L360 410"/>
+  <path class="arrow" d="M500 410 L520 410"/>
+  <path class="arrow" d="M660 410 L680 410"/>
+
+  <!-- ===== SCENARIO 3: Grass Valley + DaVinci Resolve + Premiere ===== -->
+  <text x="50" y="505" class="scenarioLabel">3. Grass Valley + DaVinci Resolve + Premiere</text>
+
+  <!-- Step 1 -->
+  <rect class="stepBox boxBlue" x="40" y="520" width="140" height="110" rx="8" ry="8"/>
+  <text x="110" y="540" text-anchor="middle" class="boxTitle">Live, kamera</text>
+  <text x="110" y="558" text-anchor="middle" class="boxText">GV ingest</text>
+  <text x="110" y="573" text-anchor="middle" class="boxText">Asset/metadata</text>
+  <text x="110" y="588" text-anchor="middle" class="boxText">Proxy</text>
+  <text x="110" y="603" text-anchor="middle" class="boxText">High-bitrate</text>
+
+  <!-- Step 2 -->
+  <rect class="stepBox boxBlue" x="200" y="520" width="140" height="110" rx="8" ry="8"/>
+  <text x="270" y="540" text-anchor="middle" class="boxTitle">Grass Valley</text>
+  <text x="270" y="558" text-anchor="middle" class="boxText">MAM/workflow</text>
+  <text x="270" y="573" text-anchor="middle" class="boxText">Signing</text>
+  <text x="270" y="588" text-anchor="middle" class="boxText">Storage +</text>
+  <text x="270" y="603" text-anchor="middle" class="boxText">API-grænser</text>
+
+  <!-- Step 3 -->
+  <rect class="stepBox boxGreen" x="360" y="520" width="140" height="110" rx="8" ry="8"/>
+  <text x="430" y="540" text-anchor="middle" class="boxTitle">Craft editor</text>
+  <text x="430" y="558" text-anchor="middle" class="boxText">DaVinci Resolve</text>
+  <text x="430" y="573" text-anchor="middle" class="boxText">"Craft" praksis</text>
+  <text x="430" y="588" text-anchor="middle" class="boxText">High-bitrate</text>
+  <text x="430" y="603" text-anchor="middle" class="boxText">conform</text>
+
+  <!-- Step 4 -->
+  <rect class="stepBox boxYellow" x="520" y="520" width="140" height="110" rx="8" ry="8"/>
+  <text x="590" y="540" text-anchor="middle" class="boxTitle">Render</text>
+  <text x="590" y="558" text-anchor="middle" class="boxText">GV workflow</text>
+  <text x="590" y="573" text-anchor="middle" class="boxText">Placeholder</text>
+  <text x="590" y="588" text-anchor="middle" class="boxText">master/projekt</text>
+  <text x="590" y="603" text-anchor="middle" class="boxText">QC-billede</text>
+
+  <!-- Step 5 -->
+  <rect class="stepBox" x="680" y="520" width="140" height="110" rx="8" ry="8"/>
+  <text x="750" y="540" text-anchor="middle" class="boxTitle">Output</text>
+  <text x="750" y="558" text-anchor="middle" class="boxText">Payout /</text>
+  <text x="750" y="573" text-anchor="middle" class="boxText">FastServe</text>
+  <text x="750" y="588" text-anchor="middle" class="boxText">Play, CMS</text>
+  <text x="750" y="603" text-anchor="middle" class="boxText">Arkiv</text>
+
+  <!-- Arrows Scenario 3 -->
+  <path class="arrow" d="M180 575 L200 575"/>
+  <path class="arrow" d="M340 575 L360 575"/>
+  <path class="arrow" d="M500 575 L520 575"/>
+  <path class="arrow" d="M660 575 L680 575"/>
+
+</svg>
