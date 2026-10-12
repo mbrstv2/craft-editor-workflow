@@ -159,7 +159,7 @@
   <!-- Step 2 -->
   <rect class="stepBox boxBlue" x="200" y="520" width="140" height="110" rx="8" ry="8"/>
   <text x="270" y="540" text-anchor="middle" class="boxTitle">Grass Valley</text>
-  <text x="270" y="558" text-anchor="middle" class="boxText">MAM/workflow</text>
+  <text x="270" y="558" text-anchor="middle" class="boxText">PAM/MAM</text>
   <text x="270" y="573" text-anchor="middle" class="boxText">Signing</text>
   <text x="270" y="588" text-anchor="middle" class="boxText">Storage +</text>
   <text x="270" y="603" text-anchor="middle" class="boxText">API-grænser</text>
