@@ -110,7 +110,7 @@
   <!-- Step 2 -->
   <rect class="stepBox boxBlue" x="200" y="355" width="140" height="110" rx="8" ry="8"/>
   <text x="270" y="375" text-anchor="middle" class="boxTitle">Mimir</text>
-  <text x="270" y="393" text-anchor="middle" class="boxText">MAM/DAM</text>
+  <text x="270" y="393" text-anchor="middle" class="boxText">MAM/PAM</text>
   <text x="270" y="408" text-anchor="middle" class="boxText">Søgning</text>
   <text x="270" y="423" text-anchor="middle" class="boxText">Story-link</text>
   <text x="270" y="438" text-anchor="middle" class="boxText">API</text>
