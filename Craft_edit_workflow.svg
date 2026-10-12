@@ -61,7 +61,7 @@
   <rect class="stepBox boxBlue" x="200" y="190" width="140" height="110" rx="8" ry="8"/>
   <text x="270" y="210" text-anchor="middle" class="boxTitle">Avid Media</text>
   <text x="270" y="228" text-anchor="middle" class="boxText">PAM/MAM</text>
-  <text x="270" y="243" text-anchor="middle" class="boxText">Workflow</text>
+  <text x="270" y="243" text-anchor="middle" class="boxText"></text>
   <text x="270" y="258" text-anchor="middle" class="boxText">Søgning</text>
   <text x="270" y="273" text-anchor="middle" class="boxText">Metadata</text>
 
