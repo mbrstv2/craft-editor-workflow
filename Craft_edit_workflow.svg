@@ -28,7 +28,7 @@
 
   <!-- Title -->
   <text x="500" y="45" text-anchor="middle" class="title">Craft editor</text>
-  <text x="450" y="60" text-anchor="middle" class="subtitle">workflow fra ingest til Craft-finishing, check-in, QC og publishing</text>
+  <text x="400" y="60" text-anchor="middle" class="subtitle">workflow fra ingest til Craft-finishing, check-in, QC og publishing</text>
 
   <!-- Step Headers -->
   <rect class="stepHeaderBox" x="40" y="85" width="140" height="40" rx="6" ry="6"/>
